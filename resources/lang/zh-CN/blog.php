@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'post' => '文章',
+    'id' => 'Id',
+    'url' => 'Url',
+    'description' => '描述',
+    'out_link' => '外链',
+    'category_id' => '分类id',
+    'category' => '分类',
+    'title' => '标题',
+    'slug' => 'slug',
+    'order' => '排序',
+    'link' => '链接',
+    'tag' => '标签',
+    'type' => '类型',
+    'content' => '内容',
+    'published' => '已发布',
+    'view_count' => '浏览次数',
+    'comment_count' => '评论数',
+    'created_at' => '创建时间',
+    'updated_at' => '更新时间',
+    'setting_key' => '配置项',
+    'setting_value' => '配置值',
+    'setting_comment' => '说明',
+    'setting' => '配置',
+];

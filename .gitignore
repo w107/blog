@@ -1,0 +1,6 @@
+/.idea
+/vendor
+/node_modules
+/composer.lock
+/mix-manifest.json
+/package-lock.json

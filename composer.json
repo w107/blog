@@ -1,0 +1,32 @@
+{
+    "name": "inn20/blog",
+    "type": "library",
+    "description": "A simple blog",
+    "authors": [
+        {
+            "name": "w",
+            "email": "dyg0924@sina.cn"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.0",
+        "encore/laravel-admin": "1.8.1",
+        "laravel-admin-ext/simplemde": "1.0.1",
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inn20\\Blog\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inn20\\Blog\\BlogServiceProvider"
+            ]
+        }
+    }
+}
