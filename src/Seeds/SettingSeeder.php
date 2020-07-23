@@ -20,7 +20,6 @@ class SettingSeeder extends Seeder
     {
         $this->firstOrCreate('name', 'Inn 博客', 'text', '应用名称');
         $this->firstOrCreate('icp', 'icp', 'text', 'icp 备案信息，需要填入你自己的备案号');
-        $this->firstOrCreate('author', 'Inn', 'text', '作者');
         $this->firstOrCreate('notice', '本博客基于Laravel7搭建，点击 <a href="https://github.com/inn20/blog" target="_blank">Github</a> 了解更多，如果你喜欢本博客，欢迎 <a href="https://github.com/inn20/blog" target="_blank">Star</a>， 感谢！',
             'textarea', '侧边公告栏');
         $this->firstOrCreate('friendship_link', '<li class="mb-2"><a href="https://www.gog5.cn" target="_blank">Inn的博客</a></li><li class="mb-2"><a href="https://github.com/inn20/blog" target="_blank">本博客Github仓库</a></li>',

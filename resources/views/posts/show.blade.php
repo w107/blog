@@ -12,6 +12,8 @@
                 <small title="{{ $post->created_at }}">发布于 {{ $post->created_at->toDateString() }}</small>
                 |
                 <small title="{{ $post->updated_at }}">最后更新 {{ $post->updated_at->toDateString() }}</small>
+                |
+                <small>浏览量 {{ $post->view_count }}</small>
             </p>
         </div>
         <hr>
