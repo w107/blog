@@ -31,6 +31,8 @@ class PostController extends AdminController
     protected function grid()
     {
         $grid = new Grid(new Post());
+        $grid->model()->reverseOrder()->recent();
+
         $grid->column('id', __blog('id'));
         $grid->column('category.title', __blog('category'));
         $grid->column('title', __blog('title'));

@@ -28,6 +28,8 @@ class NavigationController extends AdminController
     protected function grid()
     {
         $grid = new Grid(new Navigation());
+        $grid->model()->reverseOrder();
+
         $grid->column('id', __blog('id'));
         $grid->column('title', __blog('title'));
         $grid->column('url', __blog('url'));
