@@ -39,7 +39,7 @@ class PostController extends AdminController
         $grid->column('post_link', __blog('link'))->display(function () {
             return $this->link();
         })->link();
-        $grid->column('order', __blog('order'));
+        $grid->column('order', __blog('order'))->editable();
         $grid->column('type', __blog('type'))->using(Post::$type_map);
         $grid->column('published', __blog('published'))
             ->using([0 => '未发布', 1 => '已发布'])

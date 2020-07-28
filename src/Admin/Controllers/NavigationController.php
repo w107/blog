@@ -35,7 +35,7 @@ class NavigationController extends AdminController
         $grid->column('url', __blog('url'));
         $grid->column('description', __blog('description'));
         $grid->column('out_link', __blog('out_link'));
-        $grid->column('order', __blog('order'));
+        $grid->column('order', __blog('order'))->editable();
         $grid->column('created_at', __blog('created_at'));
         $grid->column('updated_at', __blog('updated_at'));
         return $grid;
