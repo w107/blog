@@ -29,6 +29,8 @@ class SettingService
     static public function forgetCache()
     {
         Cache::forget(self::CACHE_KEY);
+        // 兼容swoole框架
+        self::$settings = null;
     }
 
 }
