@@ -24,4 +24,5 @@ return [
     'setting_value' => '配置值',
     'setting_comment' => '说明',
     'setting' => '配置',
+    'navigation' => '导航',
 ];

@@ -17,7 +17,7 @@ class TagController extends AdminController
      */
     protected function title()
     {
-        return  __blog('navigation');
+        return  __blog('tag');
     }
 
     /**

@@ -24,4 +24,5 @@ return [
     'setting_value' => 'Setting value',
     'setting_comment' => 'Comment',
     'setting' => 'Setting',
+    'navigation' => 'Navigation',
 ];
