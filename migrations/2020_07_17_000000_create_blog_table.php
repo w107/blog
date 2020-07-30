@@ -6,10 +6,6 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateBlogTable extends Migration
 {
-    public function getFullTable($table)
-    {
-        return config('blog.database.prefix').$table;
-    }
 
     /**
      * Run the migrations.
