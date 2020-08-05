@@ -2,7 +2,7 @@
 #### 介绍
 一个基于Laravel的博客composer扩展包，专注阅读、支持markdown。
 
-#### 演示：[Inn的博客](https://gog5.cn/)
+#### 演示：[Inn的博客](http://blog.gog5.cn/)
 
 # 快速安装
 环境要求
