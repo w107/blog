@@ -23,7 +23,7 @@ class PostController extends Controller
     public function show(Post $post)
     {
         $post->visit();
-        $keywords = implode(',', $post->tags->pluck('title')->toArray());
+        $keywords = $post->tags->pluck('title')->implode(',');
         return view('blog::posts/show', compact('post', 'keywords'));
     }
 
