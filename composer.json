@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "laravel/framework": "^7.0",
+        "laravel/framework": "~7.30",
         "encore/laravel-admin": "1.8.1",
         "laravel-admin-ext/simplemde": "1.0.1",
         "erusev/parsedown": "^1.7"
